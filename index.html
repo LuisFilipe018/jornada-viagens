@@ -70,7 +70,7 @@
                 <option value="MPB">
                 <option value="Eletrônica">
             </datalist>
-            <br>
+            <br><br>
             <label for="favoriteColor">Cor favorita:</label>
             <input type="color" name="userFavoriteColor" id="color">
 
@@ -106,7 +106,6 @@
 
             </fieldset>
             <br>
-            <button type="submit">Enviar</button>
         </form>
     </section>
 
@@ -116,12 +115,27 @@
 
             <!-- Comentários -->
             <legend>Comentários</legend>
+            <p>O que você acha da qualidade do nosso serviço?</p>
+            <input id="otimo" type="radio" name="serviceQuality" value="otimo">
+            <label for="otimo">Ótimo</label>
+
+            <input id="boa" type="radio" name="serviceQuality" value="boa">
+            <label for="boa">Boa</label>
+
+            <input id="regular" type="radio" name="serviceQuality" value="regular">
+            <label for="regular">Regular</label>
+
+            <input id="ruim" type="radio" name="serviceQuality" value="Ruim">
+            <label for="ruim">Ruim</label>
+            <br><br>
             <label for="comments">Deixe seus comentários ou sugestões:</label>
             <br>
             <textarea id="comments" name="userComments" rows="4" cols="50" placeholder="Escreva aqui..."></textarea>
 
             </fieldset>
             <br>
+            
+            <button type="submit">Enviar</button>
         </form>
     </section>
 
