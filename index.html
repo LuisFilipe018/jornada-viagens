@@ -58,7 +58,7 @@
             <br>
             <input id="linkedin" type="checkbox" name="social" value="Linkedin   ">
             <label for="linkedin">Linkedin</label>
-            <br>
+            <br><br>
 
             <label for="musicStyle">Estilo musical:</label>
             <input list="styleTypes" id="musicStyle" name="userMusicStyle" type="text">
@@ -76,9 +76,40 @@
 
             </fieldset>
             <br> 
+
+        </form>
+    </section>
+    <br>
+
+    <section>
+        <form action="" method="get">
+            <fieldset>
+
+            <!-- Opiniões -->
+            <legend>Opiniões</legend>
+            <p>Gênero de filme favorito:</p>
+            <input id="action" type="radio" name="movieGenre" value="Ação">
+            <label for="action">Ação</label>
+            <br>
+            <input id="comedy" type="radio" name="movieGenre" value="Comédia">
+            <label for="comedy">Comédia</label>
+            <br>
+            <input id="drama" type="radio" name="movieGenre" value="Drama">
+            <label for="drama">Drama</label>
+            <br>
+            <input id="horror" type="radio" name="movieGenre" value="Terror">
+            <label for="horror">Terror</label>
+            <br><br>
+
+            <label for="satisfaction">Nível de satisfação com a cultura pop:</label>
+            <input id="satisfaction" type="range" name="userSatisfaction" min="0" max="10">
+
+            </fieldset>
+            <br>
             <button type="submit">Enviar</button>
         </form>
     </section>
+
 
 </body>
 </html>
