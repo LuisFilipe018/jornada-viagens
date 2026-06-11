@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,22 +10,44 @@
     <header>
       <a href="index.html" title="Voltar para a página inicial">
         <img
+          class="logo"
           src="IMG/bussola-jornada-branca.png"
           alt="Bussola logo Jornada viagens cor preta"
         />
       </a>
-      <img
-        src="IMG/menu.png"
-        alt="Menu logo Jornada viagens cor preta"
-        class="menu"
-      />
-      <nav>
-        <ul>
-          <li><a href="blog.html" target="_blank" title="Ir para o blog">Blog</a></li>
-          <li><a href="pacotes.html" target="_blank" title="Ir para os pacotes de viagem">Pacotes de viagem</a></li>
-          <li><a href="contato.html" target="_blank" title="Ir para o contato">Contato</a></li>
-        </ul>
-      </nav>
+      <div class="menu-container">
+        <label for="menu">
+          <img
+            src="IMG/menu.png"
+            alt="Menu logo Jornada viagens cor preta"
+            class="menu"
+          />
+        </label>
+        <input type="checkbox" id="menu" hidden/>
+        />
+        <nav>
+          <ul>
+            <li>
+              <a href="blog.html" target="_blank" title="Ir para o blog"
+                >Blog</a
+              >
+            </li>
+            <li>
+              <a
+                href="pacotes.html"
+                target="_blank"
+                title="Ir para os pacotes de viagem"
+                >Pacotes de viagem</a
+              >
+            </li>
+            <li>
+              <a href="contato.html" target="_blank" title="Ir para o contato"
+                >Contato</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
   </body>
 </html>
