@@ -37,3 +37,24 @@ button {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+
+.section-title h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: var(--title-weight);
+
+}
+
+.section-title hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px auto 32px auto;
+}
+
+@media (max-width: 768px) {
+  .section-title h2 {
+    font-size: 40px;
+  }
+}
