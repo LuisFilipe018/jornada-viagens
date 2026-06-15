@@ -6,12 +6,12 @@
   background-position: center;
 }
 
-.hero h2 {
+h2 {
   font-size: 20px;
   font-weight: var(--text-weight);
   text-align: center;
-  padding: 88px 24px;
   margin: 0px;
+  padding: 88px 0px 16px 0px;
   line-height: 32px;
 }
 
@@ -22,10 +22,10 @@
     background-size: cover;
     background-position: center;
   }
-  .hero h2 {
+  h2 {
     font-size: 32px;
     font-weight: var(--text-weight);
-    padding: 88px 60px;
+    padding: 88px 0px 16px 0px;
     margin: 0px;
   }
 }
@@ -36,8 +36,8 @@
     background-size: cover;
     background-position: center;
   }
-    .hero h2 {
-    padding: 88px 120px;
+    h2 {
+    padding: 88px 0px 16px 0px;
   }
 }
 
@@ -47,7 +47,7 @@
     background-size: cover;
     background-position: center;
   }
-    .hero h2 {
-    padding: 88px 160px;
+    h2 {
+    padding: 88px 0px 16px 0px;
   }
 }
