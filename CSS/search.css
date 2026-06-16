@@ -18,12 +18,12 @@
   text-decoration: none;
 }
 
-.search-card header {
+.search-card div {
   display: block;
   background-color: transparent;
 }
 
-.search-card header img{
+.search-card img{
   padding-bottom: 24px;
 }
 
@@ -41,7 +41,7 @@
   padding-bottom: 5px;
 }
 
-.search-card header h3 {
+.search-card h3 {
   font-size: 28px;
   font-weight: var(--title-weight);
 
@@ -52,5 +52,15 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .search-card {
+    width: 281.25px;
+  }
+
+  .section-title h2 {
+    padding: 104px 120px px;
   }
 }

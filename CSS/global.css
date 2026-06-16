@@ -24,6 +24,7 @@
 body,
 img,
 h1,
+h2,
 h3,
 p,
 fieldset,
@@ -43,6 +44,7 @@ button {
   text-align: center;
   font-size: 32px;
   font-weight: var(--title-weight);
+  padding-top: 88px;
 }
 
 .section-title hr {
@@ -66,14 +68,19 @@ button {
   transition: background-color 0.3s ease;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .section-title h2 {
-    font-size: 40px;
+    font-size: 35px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .button:hover {
     background-color: var(--secondary-color);
+  }
+
+  .section-title h2 {
+    padding-top: 104px;
+    margin: 0;
   }
 }
