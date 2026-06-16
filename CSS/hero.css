@@ -1,50 +1,40 @@
-.hero-img {
-  height: 400px;
-  width: 100%;
-  background-image: url("../IMG/Banner-homepage-mobile.png");
-  background-size: cover;
-  background-position: center;
+.hero .hero-img {
+    height: 400px;
+    width: 100%;
+    background-image: url("../IMG/Banner-homepage-mobile.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .hero h2 {
-  font-size: 20px;
-  font-weight: var(--text-weight);
-  text-align: center;
-  margin: 0px;
-  padding: 88px 24px 0px 24px;
-  line-height: 32px;
+    font-size: 20px;
+    font-weight: var(--text-weight);
+    text-align: center;
+    margin: 0;
+    padding: 88px 24px 0 24px;
+    line-height: 32px;
 }
 
 @media screen and (min-width: 768px) {
-  .hero-img {
-    height: 620px;
-    background-image: url("../IMG/Banner-homepage-tablet.png");
-    background-size: cover;
-    background-position: center;
-  }
-  .hero h2 {
-    font-size: 32px;
-    font-weight: var(--text-weight);
-    padding: 88px 0 auto;
-    margin: 0px;
-  }
+    .hero .hero-img {
+        height: 620px;
+        background-image: url("../IMG/Banner-homepage-tablet.png");
+    }
+
+    .hero h2 {
+        font-size: 32px;
+        margin: 0;
+    }
 }
 
 @media screen and (min-width: 1024px) {
-  .hero-img {
-    background-image: url("../IMG/Banner-homepage-desktop.png");
-    background-size: cover;
-    background-position: center;
-  }
-    .hero h2 {
-    padding: 120px 104px 0px 104px;
-  }
-}
+    .hero .hero-img {
+        height: 800px;
+        background-image: url("../IMG/Banner-homepage-desktop.png");
+    }
 
-@media screen and (min-width: 1920px) {
-  .hero-img {
-    background-image: url("../IMG/Banner-homepage-desktop.png");
-    background-size: cover;
-    background-position: center;
-  }
-  }
+    .hero h2 {
+        padding: 120px 104px 0 104px;
+    }
+}
