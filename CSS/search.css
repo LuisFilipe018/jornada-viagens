@@ -1,3 +1,56 @@
-h2 {
-    
+.search-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  margin-top: 64px;
+}
+
+.search-card {
+  color: var(--text-primary-color);
+  background-color: var(--background-secondary-color);
+  width: 312px;
+  height: 220px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.search-card header {
+  display: block;
+  background-color: transparent;
+}
+
+.search-card header img{
+  padding-bottom: 24px;
+}
+
+.caminhada, .planeta {
+  padding-top: 41px;
+}
+
+.aviao {
+  padding-top: 25px;
+}
+
+.van {
+  padding-top: 45px;
+  width: 29%;
+  padding-bottom: 5px;
+}
+
+.search-card header h3 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+
+}
+
+@media screen and (min-width: 768px) {
+  .search-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
