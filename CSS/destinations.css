@@ -46,3 +46,43 @@
   font-size: 20px;
   line-height: 1.5;
 }
+
+@media (min-width: 768px) {
+.destination-card {
+  max-width: 648px;
+}
+
+.img-osaka,
+.img-tokyo {
+  height: 452px;
+}
+
+.img-tokyo {
+  background-image: url("../IMG/tokyo-tablet-desk.jpg");
+}
+
+.img-osaka {
+  background-image: url("../IMG/osaka-tablet-desk.jpg");
+}
+}
+
+@media (min-width: 1024px) {
+  .destination-card {
+  width: 1200px;
+  margin: 0px auto;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.img-osaka,
+.img-tokyo {
+  width: 588px;
+}
+
+.desktop-card {
+  width: 588px;
+  height: 750px;
+  
+}
+}
