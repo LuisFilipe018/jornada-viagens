@@ -40,6 +40,7 @@
 .destination-items h4 {
   font-size: 28px;
   text-align: left;
+  margin-top: 24px;
 }
 
 .destination-items p {
@@ -55,6 +56,7 @@
 .img-osaka,
 .img-tokyo {
   height: 452px;
+  gap: 24px;
 }
 
 .img-tokyo {
@@ -66,23 +68,38 @@
 }
 }
 
+.destinations-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 @media (min-width: 1024px) {
   .destination-card {
   width: 1200px;
   margin: 0px auto;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 .img-osaka,
 .img-tokyo {
+  width: 100%;
   width: 588px;
 }
 
 .desktop-card {
-  width: 588px;
   height: 750px;
-  
 }
+}
+
+@media (min-width: 1440px) {
+  .destinations-wrapper {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .destination-card {
+    max-width: 588px;
+    margin: 0;
+  }
 }
