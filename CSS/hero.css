@@ -12,7 +12,7 @@
     font-weight: var(--text-weight);
     text-align: center;
     margin: 0;
-    padding: 88px 24px 0 24px;
+    padding: 88px 24px 88px 24px;
     line-height: 32px;
 }
 
@@ -24,7 +24,7 @@
 
     .hero h2 {
         font-size: 32px;
-        margin: 0;
+
     }
 }
 
@@ -34,7 +34,5 @@
         background-image: url("../IMG/Banner-homepage-desktop.png");
     }
 
-    .hero h2 {
-        padding: 120px 104px 0 104px;
-    }
+    
 }
