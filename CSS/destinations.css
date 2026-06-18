@@ -48,10 +48,18 @@
   line-height: 1.5;
 }
 
+.destination-items .button {
+  align-self: center;
+}
+
 @media (min-width: 768px) {
 .destination-card {
   max-width: 648px;
 }
+
+.destination-items .button {
+    align-self: flex-start;
+  }
 
 .img-osaka,
 .img-tokyo {
