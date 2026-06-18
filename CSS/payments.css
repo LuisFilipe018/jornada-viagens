@@ -40,20 +40,51 @@
     background: url("../IMG/passport.png");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    
 }
 
 .image-people {
+    width: 100%;
     width: 312px;
     height: 182px;
     background: url("../IMG/people.png");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
 }
 
 @media (min-width: 768px) {
   
+    .image-content {
+    width: 648px;
+    height: 254px;
+    }
+
+    .image-bag {
+    width: 312px;
+    background: url("../IMG/bag-tablet.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+  }
+
+  .image-passport {
+    width: 312px;
+    background: url("../IMG/passport-tablet.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .image-people {
+    width: 648px;
+    margin: 24px 0;
+    background: url("../IMG/people-tablet.png");
+    background-size: cover;
+    background-position: center;
+    background-position: bottom;
+    
+  }
 }
 
 @media (min-width: 1024px) {
