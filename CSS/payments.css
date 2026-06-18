@@ -1,0 +1,65 @@
+.payments-items {
+    width: 100%;
+    max-width: 312px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    overflow: hidden;
+}
+
+.payments-items h4 {
+    margin: 0;
+}
+
+.payments-items p {
+    margin: 0  0 24px 0;
+}
+
+.image-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
+.image-bag {
+    width: 144px;
+    height: 254px;
+    background: url("../IMG/bag.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.image-passport {
+    width: 144px;
+    height: 254px;
+    background: url("../IMG/passport.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image-people {
+    width: 312px;
+    height: 182px;
+    background: url("../IMG/people.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  
+}
+
+@media (min-width: 1024px) {
+  
+}
+
+@media (min-width: 1920px) {
+  
+}
