@@ -24,7 +24,8 @@
 
     .hero h2 {
         font-size: 32px;
-
+        padding: 0px;
+        margin: 88px 60px;
     }
 }
 
@@ -34,5 +35,9 @@
         background-image: url("../IMG/Banner-homepage-desktop.png");
     }
 
-    
+    .hero h2 {
+        width: 1200px;
+        margin: 104px auto;
+        align-self: center;
+    }
 }
