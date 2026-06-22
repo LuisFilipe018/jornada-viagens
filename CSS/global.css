@@ -49,7 +49,8 @@ section {
   margin: 0 auto 88px;
 }
 
-section.hero {
+section.hero,
+section.pre-footer {
   width: 100%;
   margin: 0;
 }
