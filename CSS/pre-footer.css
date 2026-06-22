@@ -1,0 +1,22 @@
+.pre-footer .pre-footer-img {
+  height: 400px;
+  width: 100%;
+  background-image: url("../IMG/Banner-rodape-mobile.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+  .pre-footer .pre-footer-img {
+    height: 400px;
+    background-image: url("../IMG/Banner-rodape-tablet.png");
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .pre-footer .pre-footer-img {
+    height: 600px;
+    background-image: url("../IMG/Banner-rodape-desktop.png");
+  }
+}
