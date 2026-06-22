@@ -32,12 +32,12 @@
   gap: 24px;
 }
 
-.destination-items h4,
+.destination-items h3,
 .destination-items p {
   margin: 0;
 }
 
-.destination-items h4 {
+.destination-items h3 {
   font-size: 28px;
   text-align: left;
   margin-top: 24px;
