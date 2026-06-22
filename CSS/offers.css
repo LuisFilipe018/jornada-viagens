@@ -90,10 +90,3 @@
     font-size: 40px;
   }
 }
-
-@media (min-width: 1920px) {
-  .offers-cards {
-    width: 1250px;
-    margin: 0 auto;
-  }
-}
