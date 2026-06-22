@@ -38,6 +38,10 @@
 @media (min-width:1440px) {
     .testimonial-container{
     flex-direction: row;
+}
 
+.testimonial-container article{
+    height: 206px;
+    width: 384px;
 }
 }
