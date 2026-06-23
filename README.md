@@ -2,6 +2,16 @@
 
 Landing page responsiva para uma agência de viagens fictícia, desenvolvida com HTML5 e CSS3. O projeto foi criado para praticar estrutura semântica, responsividade e organização de estilos utilizando CSS modular.
 
+🔗 Demo
+
+Acesse o projeto online:
+https://luisfilipe018.github.io/jornada-viagens/
+
+Visualizar Projeto
+
+📸 Preview
+IMG-preview/Preview-DESKTOP.png
+
 ## Tecnologias
 
 * HTML5
