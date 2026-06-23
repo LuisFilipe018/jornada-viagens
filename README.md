@@ -10,7 +10,7 @@ https://luisfilipe018.github.io/jornada-viagens/
 Visualizar Projeto
 
 📸 Preview
-(IMG-preview/Preview-DESKTOP.png)
+![Pré-visualização](./IMG-preview/Preview-DESKTOP.png)
 
 ## Tecnologias
 
