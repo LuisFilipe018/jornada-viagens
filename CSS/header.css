@@ -27,6 +27,11 @@
   margin-top: 24px;
 }
 
+nav a.active {
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 4px;
+}
+
 input[type="checkbox"]:checked ~ nav {
   display: block;
   position: absolute;
