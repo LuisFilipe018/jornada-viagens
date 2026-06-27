@@ -63,6 +63,34 @@
     background-image: url("../IMG/people.png");
 }
 
+.img-japao1 {
+    background-image: url("../IMG/japao-1.png");
+}
+
+.img-japao2 {
+    background-image: url("../IMG/japao-2.png");
+}
+
+.img-japao3 {
+    width: 312px;
+    height: 182px;
+    background-image: url("../IMG/japao-3.png");
+}
+
+.img-japao1,
+.img-japao2,
+.img-japao3 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-japao1,
+.img-japao2 {
+    width: 144px;
+    height: 254px;
+}
+
 @media (min-width: 768px) {
   .payments-items {
     max-width: 648px;
