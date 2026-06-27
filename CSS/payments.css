@@ -13,6 +13,10 @@
     gap: 24px;
 }
 
+.payments-layout .payments-items h2 {
+  font-size: 40px;
+}
+
 .payments-items h3 {
     margin: 0;
 }
