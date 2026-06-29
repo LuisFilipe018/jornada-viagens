@@ -92,7 +92,7 @@
 }
 
 @media (min-width: 768px) {
-  .payments-items {
+  .payments-layout {
     max-width: 648px;
   }
   
@@ -112,6 +112,27 @@
     background-image: url("../IMG/people-tablet.png");
     background-position: bottom;
   }
+
+  .payments-items {
+    max-width: 648px;
+  }
+
+  .img-japao1 {
+    background-image: url("../IMG/japao-tablet-1.png");
+    width: 312px;
+}
+
+.img-japao2 {
+    background-image: url("../IMG/japao-tablet-2.png");
+    width: 312px;
+}
+
+.img-japao3 {
+  background-image: url("../IMG/japao-tablet-3.png");
+    width: 648px;
+    margin: 0;
+    background-position: bottom;
+}
 }
 
 @media (min-width: 1440px) {
